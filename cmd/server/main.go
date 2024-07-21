@@ -1,7 +1,9 @@
 package main
 
-import server "github.com/mproni/medlmart/internal/app"
+import (
+	"github.com/mproni/medlmart/internal/app"
+)
 
 func main() {
-	server.Start()
+	app.Start()
 }
